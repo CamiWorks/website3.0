@@ -160,3 +160,105 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight files
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+
+# macOS metadata files
+com.apple.*.plist
+*.AppleStylesheet
+
+# Xcode files
+DerivedData/
+*.xcuserdata/
+*.xcworkspace/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Other files and folders to ignore
+*.swp
+*.swo
+*.tmp
+*.log
+*.pid
+*.seed
+*.lock
+
+
+# Ubuntu System Files
+*.bak
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Thumbnails
+.thumbnails/
+.cache/
+.local/share/Trash/
+
+# Desktop files
+*.desktop
+
+# Compiled source files
+*.o
+*.out
+*.class
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Virtual Environment
+env/
+venv/
+ENV/
+venv.bak/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Misc
+*.pid
+*.seed
+*.lock
+*.coverage
+*.coverage.*
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
