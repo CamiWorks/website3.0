@@ -1,0 +1,279 @@
+{% extends "layout.html" %}
+
+{% block content %}
+      <!-- Start Main Page -->
+      <main id="smooth-wrapper">
+         <div id="smooth-content">
+            <section class="slideshow-5 intro-eff">
+               <div class="slides slides-images">
+                  <div class="slide-wrap slide-current">
+                     <div class="slide-img slide-vid" style="background-color: #000">
+                        <div class="js-video-9 vid-vh-100 op-8" data-speedparallax="-0.4" data-video-src="{{ url_for( 'static', filename='img/particles.mp4') }}">
+                           <center><video autoplay muted loop id="video_backgroundd" style="filter: grayscale(100%); min-height: 100vh;">
+                              <source src="../static/img/particles.mp4" type="video/mp4">
+                           </video></center>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="slides slides-titles">
+                  <div class="slide-wrap slide-current">
+                     <h2 class="slide-title fs-9"><span class="f-stroke-w">MY</span> PORTFOLIO</h2> <span style="margin-top: 1vh;" class="fs-7">⇓</span>
+                  </div>
+               </div>
+            </section>
+            <section class="container-fluid m-section-100">
+               <div class="row justify-content-center">
+                  <div class="col-11 col-md-10 text-center mt-11 mb-11">
+                     <h1 class="js-split-rotate fs-13" data-speed="1.2">
+                        <span class="f-stroke-w">Welcome</span>
+                     </h1>
+                     <h2 class="js-split-rotate h5 mw-800 mx-auto" data-speed="1.16">
+                        This space is a reflection of my journey as a data scientist, and DevOps programmer, showcasing the projects and insights I've developed along the way.
+                     </h2>
+                  </div>
+               </div>
+               <div class="row g-5 justify-content-around">
+                  <div class="col-10 col-md-7">
+                     <h3 class="js-split-rotate mb-0" data-speed="1.04">
+                        Real
+                     </h3>
+                     <h3 class="js-split-rotate mb-3" data-speed="1.02">
+                        Genie
+                     </h3>
+                     <p class="js-split-lines-fade-up mb-5 mw-375">
+                        A real estate project that leverages the dynamic retrieval of data from plain language sources.
+                     </p>
+                  </div>
+                  <div class="col-md-11 mt-8 mb-8">
+                     <div class="js-reveal-parallax-l parallax-img">
+                        <div class="reveal-parallax-l parallax-cont vh-90" data-cursor="-opaque">
+                           <a href="https://realgenie.camilo-sierra.com/" target="_blank">
+                              <video autoplay muted loop id="video_backgroundd" class="slide-img bg-ol-dark-5" style="filter: grayscale(100%);">
+                                 <source src="../static/img/RealEstate.mp4" type="video/mp4">
+                              </video>
+                              <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%); color: #4d4d4d;" class="fs-7 link-1 link-hover-1">Experience dynamic data</div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-11 col-md-3 mt-8 mb-8">
+                     <h3 class="js-split-rotate mb-0" data-speed="1.04">
+                        LatinArte & MDA 
+                     </h3>
+                     <p class="js-split-lines-fade-up mb-5">
+                        A beautifully redesigned layout and user experience that enhances interaction, with a focus on analyzing the statistics of page clicks to optimize engagement and performance.
+                     </p>
+                     <div class="grid-item js-reveal-img-l grid-bg-1 grid-item-15" data-speed="1.01" data-cursor="-opaque">
+                        <a href="https://latinarte.ca/" class="glightbox-1">
+                           <div class="grid-item-img-h reveal-img-l" 
+                                data-displacement="../static/img/textures/mask-37.jpg" 
+                                data-angle1="" 
+                                data-angle2="" 
+                                data-intensity1="" 
+                                data-intensity2="" 
+                                data-ease="expo.out">
+                              <img src="../static/img/art1.jpg" alt="Image">
+                              <img src="../static/img/art2.jpg" alt="Image">
+                              <div class="grid-item-content">
+                                 <h3 class="grid-item-subtitle">
+                                    <span>LatinArte</span>
+                                    <span class="grid-item-link">View</span>
+                                 </h3>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-7 mt-8 mb-8">
+                     <div class="grid-item js-reveal-img-r grid-bg-1 grid-item-40" data-speed="1.03" data-cursor="-opaque">
+                        <a href="https://maisondesameriques.ca/" class="glightbox-1">
+                           <div class="grid-item-img-h reveal-img-r" 
+                                data-displacement="../static/img/textures/mask-37.jpg" 
+                                data-angle1="" 
+                                data-angle2="" 
+                                data-intensity1="" 
+                                data-intensity2="" 
+                                data-ease="expo.out">
+                              <img src="../static/img/MDA1.jpg" alt="Image">
+                              <img src="../static/img/MDA2.jpg" alt="Image">
+                              <div class="grid-item-content">
+                                 <h3 class="grid-item-subtitle">
+                                    <span>MDA</span>
+                                    <span class="grid-item-link">View</span>
+                                 </h3>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+
+
+
+
+
+
+
+                  <!-- <div class="col-10 col-md-8 mt-8 mb-8">
+                     <div>
+                        <h3 class="js-split-rotate h2 mb-3" data-speed="1.04">
+                           Enjoy the moment
+                        </h3>
+                        <h3 class="js-split-lines-fade-up fs-4 mw-600" data-speed="1.01">
+                           Praesent viverra cursus turpis a elementum. Serve sem et vestibulum diam. Donec varius tellus et sart neque tempor, in elementum diam viverra.
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="col-md-7 mt-8 mb-8" data-cursor-text="View Video" data-cursor="-text-dark -lg" data-speed="1.1">
+                     <div class="js-reveal-img-l">
+                        <div class="js-video-4 vid-vh-60 reveal-img-l" data-speedparallax="1" data-video-src="https://vimeo.com/752525675">
+                           <img class="jarallax-img" src="../static/img/ssyt-4.jpg" alt="image">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-10 col-md-3 mt-8">
+                     <h3 class="js-split-rotate mb-0" data-speed="1.04">
+                        Team of
+                     </h3>
+                     <h3 class="js-split-rotate mb-3" data-speed="1.02">
+                        Experts
+                     </h3>
+                     <p class="js-split-lines-fade-up mb-5">
+                        Phasellus sagittis felis et lorem porttitor congue. Quisque suscipit venenatis ex, posuere molestie mauris placerat quis.Nulla consectetur lectus sit amet neque ullam corper mattis dolor sit.
+                     </p>
+                  </div>
+                  <div class="col-md-6 mt-8 mb-8">
+                     <div class="grid-item js-reveal-img-l grid-bg-1 grid-item-50" data-speed="1.06" data-cursor="-opaque">
+                        <a href="../static/img/1200x1440.jpg" class="glightbox-1">
+                           <div class="grid-item-img-v reveal-img-l" 
+                                data-displacement="../static/img/textures/mask-33.jpg" 
+                                data-angle1="" 
+                                data-angle2="" 
+                                data-intensity1="" 
+                                data-intensity2="" 
+                                data-ease="expo.out">
+                              <img src="../static/img/1200x1440.jpg" alt="Image">
+                              <img src="../static/img/1200x1440.jpg" alt="Image">
+                              <div class="grid-item-content">
+                                 <h3 class="grid-item-subtitle">
+                                    <span>Ui / Ux Design</span>
+                                    <span class="grid-item-link">Read More</span>
+                                 </h3>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-11 col-md-4 mt-8 mb-8">
+                     <h3 class="js-split-rotate mb-0" data-speed="1.04">
+                        Creating
+                     </h3>
+                     <h3 class="js-split-rotate mb-3" data-speed="1.02">
+                        Dialogues
+                     </h3>
+                     <p class="js-split-lines-fade-up mb-5 mw-375">
+                        Nullam quis blandit ex, sit amet sagittis est. Sed feugiat volutpat enim. Nullam dignissim mi at iaculis vulputate. Nam a nulla vel justo mollis aliquet feugiat eu nisi.
+                     </p>
+                     <div class="grid-item js-reveal-img-r grid-bg-1 grid-item-35" data-cursor="-opaque">
+                        <a href="../static/img/1200x1440.jpg" class="glightbox-1">
+                           <div class="grid-item-img-v reveal-img-r" 
+                                data-displacement="../static/img/textures/mask-33.jpg" 
+                                data-angle1="" 
+                                data-angle2="" 
+                                data-intensity1="" 
+                                data-intensity2="" 
+                                data-ease="expo.out">
+                              <img src="../static/img/1200x1440.jpg" alt="Image">
+                              <img src="../static/img/1200x1440.jpg" alt="Image">
+                              <div class="grid-item-content">
+                                 <h3 class="grid-item-subtitle">
+                                    <span>Get Inspired</span>
+                                    <span class="grid-item-link">Read More</span>
+                                 </h3>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-11 col-md-5 mt-8 mb-8">
+                     <div class="grid-item js-reveal-img-l grid-bg-1 grid-item-50" data-speed="1.1" data-cursor="-opaque">
+                        <a href="../static/img/1200x1440.jpg" class="glightbox-1">
+                           <div class="grid-item-img-v reveal-img-l" 
+                                data-displacement="../static/img/textures/mask-33.jpg" 
+                                data-angle1="" 
+                                data-angle2="" 
+                                data-intensity1="" 
+                                data-intensity2="" 
+                                data-ease="expo.out">
+                              <img src="../static/img/1200x1440.jpg" alt="Image">
+                              <img src="../static/img/1200x1440.jpg" alt="Image">
+                              <div class="grid-item-content">
+                                 <h3 class="grid-item-subtitle">
+                                    <span>Total Business</span>
+                                    <span class="grid-item-link">Read More</span>
+                                 </h3>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <h3 class="js-split-rotate mt-5 mb-0" data-speed="1.04">
+                        your Trusted web
+                     </h3>
+                     <h3 class="js-split-rotate mb-3" data-speed="1.02">
+                        Design company
+                     </h3>
+                     <p class="js-split-lines-fade-up mw-500">
+                        Vestibulum ac vehicula mauris, eget ullamcorper justo. In hac habitasse platea dictumst. Nunc tincidunt ipsum in ultricies imperdiet. Ut at rhoncus lacus. Etiam lorem augue, dapibus eu aliquet vitae, tempor ut velit.
+                     </p>
+                  </div>
+                  <div class="col-11 col-md-5 mt-8 mb-8">
+                     <h3 class="js-split-rotate mb-0" data-speed="1.04">
+                        we create Digital
+                     </h3>
+                     <h3 class="js-split-rotate mb-3" data-speed="1.02">
+                        Branding experience
+                     </h3>
+                     <p class="js-split-lines-fade-up mb-5 mw-500">
+                        Cras scelerisque maximus auctor. Mauris pulvinar mi eu neque pellentesque, sed euismod metus tincidunt. Donec tortor augue, rhoncus vitae sollicitudin in, tempor eu neque. Donec ut ante vel enim posuere cursus. Pellentesque habitant morbi tristique senectus et netus.
+                     </p>
+                     <div class="grid-item js-reveal-img-r grid-bg-1 grid-item-50" data-speed="1.02" data-cursor="-opaque">
+                        <a href="../static/img/1200x1440.jpg" class="glightbox-1">
+                           <div class="grid-item-img-v reveal-img-r" 
+                                data-displacement="../static/img/textures/mask-33.jpg" 
+                                data-angle1="" 
+                                data-angle2="" 
+                                data-intensity1="" 
+                                data-intensity2="" 
+                                data-ease="expo.out">
+                              <img src="../static/img/1200x1440.jpg" alt="Image">
+                              <img src="../static/img/1200x1440.jpg" alt="Image">
+                              <div class="grid-item-content">
+                                 <h3 class="grid-item-subtitle">
+                                    <span>Unique Design</span>
+                                    <span class="grid-item-link">Read More</span>
+                                 </h3>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-10 col-md-8 mt-11">
+                     <h4 class="js-split-rotate fs-8 text-start smooth-xy" data-speedx="0.3" data-speedy="0.1">
+                        <a href="work-2.html" aria-label="work 2" class="link-1 link-hover-1" data-cursor="-opaque">Next Work</a><i class="ms-5">&#8212;</i>
+                     </h4>
+                     <h4 class="js-split-rotate fs-8 text-end smooth-xy" data-speedx="-0.3" data-speedy="-0.1">
+                        <i class="me-5">&#8212;</i><a href="work-5.html" aria-label="work 5" class="link-1 link-hover-1" data-cursor="-opaque">Prev Work</a>
+                     </h4>
+                  </div>
+               </div>
+            </section>
+            <div class="js-drag-slider-wrap">
+               <div class="js-drag-slider-inner">
+                  <div class="js-drag-slider-wrap-img">
+                  </div>
+               </div>
+            </div>
+            <div class="parallax-prev"></div> -->
+            </div>
+         </section>
+            {% endblock content %}

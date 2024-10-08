@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+      <!-- Start Overlay Top-Bottom -->
+      <div class="ol-dark-top"></div>
+      <div class="ol-dark-bottom"></div>
+      <!-- End Overlay Top-Bottom -->
+
+      <!-- Start Main Page -->
+      <main id="smooth-wrapper">
+         <div id="smooth-content">
+            <section class="position-relative" style="background-color: #000">
+               <div class="js-video-10 vid-vh-100 op-3" data-speedparallax="0.5">
+                  <video autoplay muted loop id="video_backgroundd" class="jarallax-img">
+                     <source src="../static/img/realgeniehero.mp4" type="video/mp4">
+                   </video>
+               </div>
+               <h3 class="fs-16 w-100 z-index-2 text-center text-absolute text-gradient-3" data-speed="0.60">
+                  REAL.GENIE
+               </h3>
+            </section>
+            <section class="container-fluid m-section-100" data-textcolor="" data-bgcolor="#000">
+               <div class="row justify-content-center">
+                  <div class="col-11 col-md-10 text-center mt-11 mb-11">
+                     <h1 class="js-split-words-up fs-20 text-gradient-3" data-speed="1.2">
+                        <span class="ff-2">WHY</span> ?
+                     </h1>
+                     <h3 class="js-split-rotate h6 lh-sm mw-700 mx-auto" data-speed="1.12">
+                        Embracing dynamism, this project aims to deliver real-time analysis of any expressed natural language address, providing reliable insights into the current real estate market
+                     </h3>
+                  </div>
+               </div>
+               <div class="row g-5 justify-content-around">
+                  <div class="col-md-10 mb-12">
+                     <a href="https://realgenie.camilo-sierra.com/" class="glightbox-1" data-glightbox="title: Artik's Projects; description: .desc-1; descPosition: top;" data-cursor-text="Visit Now!" data-cursor="-light-1 -xl" target="_blank">
+                        <div class="js-reveal-parallax-l parallax-img">
+                           <div class="reveal-parallax-l parallax-cont vh-70">
+                              <img src="../static/img/modern-look.png" class="h-105" data-speed="auto" alt="Image">
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-md-6 position-relative">
+                     <a href="https://realgenie.camilo-sierra.com/" class="glightbox-vid">
+                        <div class="js-reveal-parallax-l parallax-img">
+                           <div class="reveal-parallax-l parallax-cont vh-60">
+                              <img src="../static/img/newDes.png" class="h-105" data-speed="auto" alt="Image">
+                           </div>
+                        </div>
+                        <div class="btn-video js-fade">
+                           <div class="btn-circle-2 btn-circle-lg btn-bor-dark" data-cursor-text="#Video" data-cursor="-light-1 -xl">
+                              <img src="../static/img/newDes.png" alt="play">
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-10 col-md-4 align-cs">
+                     <div class="w-100">
+                        <h3 class="js-split-words-up text-gradient-3 fs-6" data-speed="1.06">
+                           <span class="ff-2">New</span> Design
+                        </h3>
+                        <h3 class="js-split-lines-fade-up fs-3 lh-sm" data-speed="1.03">
+                           A fresh new design that reimagines the classic spreadsheet and transforms the everyday way of transmitting information
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="col-10 col-md-8">
+                     <h4 class="js-split-chars-left fs-8 text-start smooth-xy" data-speedx="0.3" data-speedy="0.1">
+                        <a href="/latinArte" aria-label="work 3" class="link-1 link-hover-1" data-cursor="-opaque">Next Work</a><i class="ms-5">&#8212;</i>
+                     </h4>
+                     <h4 class="js-split-chars-left fs-8 text-end smooth-xy" data-speedx="-0.3" data-speedy="-0.1">
+                        <i class="me-5">&#8212;</i><a href="/tick" aria-label="work 1" class="link-1 link-hover-1" data-cursor="-opaque">Prev Work</a>
+                     </h4>
+                  </div>
+               </div>
+            </section>
+         {% endblock content %}

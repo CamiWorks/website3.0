@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Artik| Business Template">
+      <meta name="keywords" content="HTML, CSS, template">
+      <meta name="author" content="Umberto">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="theme-color" content="#000000">
+      <title>Camilo Sierra</title>
+
+      <link rel="shortcut icon" href="{{ url_for( 'static', filename='img/isotipo.webp') }}" type="image/x-icon">
+      <link rel="apple-touch-icon" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      <link rel="apple-touch-icon" sizes="57x57" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      <link rel="apple-touch-icon" sizes="120x120" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      <link rel="apple-touch-icon" sizes="152x152" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for( 'static', filename='img/isotipo.webp') }}">
+      
+      <link rel="preload" href="{{ url_for( 'static', filename='fonts/New_Fonts/metropolis/Metropolis-ExtraLight.otf') }}" as="font" type="font/woff2" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='css/plugin.min.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='css/themify-icons.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='css/style.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='css/dark.css') }}">
+   </head>
+   
+   <body>
+      
+      <!-- Start Preload -->
+      <div class="loader-bg">
+         <div class="percentage">0%</div>
+      </div>
+      <!-- End Preload -->
+
+      <header>
+         <!-- Start Toolbar -->
+         <div class="header-toolbar">
+            <div class="js-toolbar">
+               <a href="/" class="link-1 link-hover-1 logo" data-cursor="-exclusion -sm">
+                  c.sierra
+               </a>
+               <div class="nav-icon js-nav-open-close">
+                  <div class="nav-icon-wrap" data-cursor="-opaque">
+                     <span class="nav-line-t"></span>
+                     <span class="nav-line-c"></span>
+                     <span class="nav-line-b"></span>
+                     <div class="nav-icon-close"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- End Toolbar -->
+         
+         <!-- Start Nav Bar -->
+         <nav class="nav-container js-submenu-view">
+            <div class="submenu-close" data-magnetic data-cursor="-opaque">
+               <div class="submenu-close-img js-submenu-close">
+                  <img src="" alt="GO BACK"> 
+               </div>
+            </div>
+            <div class="nav-v">
+               <div>
+                  <!-- Start Menu -->
+                  <div class="nav-link-out js-submenu-open">
+                     <div class="nav-link-in nav-menu-link submenu-hidden">
+                        <div class="nav-link-in-out" data-cursor="-exclusion -sm">
+                           <a href="/">HOME</a>
+                        </div>
+                     </div>
+                     <!-- Start Submenu -->
+                     <div class="nav-v submenu js-submenu">
+                     </div>
+                     <!-- End Submenu -->
+                  </div>
+                  <!-- End Menu -->
+
+                  <!-- Start Menu -->
+                  <div class="nav-link-out js-submenu-open">
+                     <div class="nav-link-in nav-menu-link submenu-hidden">
+                        <div class="nav-link-in-out" data-cursor="-exclusion -sm">
+                           <a href="/portfolio">PORTFOLIO</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Menu -->
+
+
+                  <!-- Start Menu -->
+                  <div class="nav-link-out js-submenu-open">
+                     <div class="nav-link-in nav-menu-link submenu-hidden">
+                        <div class="nav-link-in-out" data-cursor="-exclusion -sm">
+                           <a href="#">WORKS</a>
+                        </div>
+                     </div>
+                     <!-- Start Submenu -->
+                     <div class="nav-v submenu js-submenu">
+                        <div data-cursor="-exclusion -sm">
+                           <div class="nav-link-out">
+                              <div class="nav-link-in nav-submenu-link">
+                                 <div class="nav-link-in-out">
+                                    <a href="/realGenie">Real.Genie</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="nav-link-out">
+                              <div class="nav-link-in nav-submenu-link">
+                                 <div class="nav-link-in-out">
+                                    <a href="/latinArte">LatinArte</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="nav-link-out">
+                              <div class="nav-link-in nav-submenu-link">
+                                 <div class="nav-link-in-out">
+                                    <a href="/mda">MDA</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="nav-link-out">
+                              <div class="nav-link-in nav-submenu-link">
+                                 <div class="nav-link-in-out">
+                                    <a href="/tick">Ticketing</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- End Submenu -->
+                  </div>
+                  <!-- End Menu -->
+               </div>
+            </div>
+         </nav>
+         <!-- End Nav Bar -->
+      </header>
+
+      {% block content %}
+
+
+
+
+      {% endblock %}
+
+      <br><br><br><br><br><br>
+      <footer class="js-bgfix" data-textcolorfix="#ccd0db" data-bgcolorfix="#0c0c0c">
+        <div class="footer-1 js-parallax-section">
+           <div class="container">
+              <div class="row justify-content-center">
+                 <div class="col-md-9">
+                    <h4 class="js-split-words-up f1-mail fs-6">
+                       <a href="mailto:contact@camilo-sierra.com" class="link-1 link-hover-1" aria-label="Contact Us" data-cursor-text="MAIL" data-cursor="-lg">Camilo Sierra</a>
+                    </h4>
+                 </div>
+                 <div class="col-md-11">
+                    <div class="row">
+                       <div class="col-md-4">
+                          <div class="f1-info">
+                             <h5 class="f1-address">
+                                Montreal
+                             </h5>
+                             <p>
+                                Quebec, Canada <br>
+                                <a href="mailto:contact@camilo-sierra.com" class="link-1 link-hover-1">contact@camilo-sierra.com</a><br>
+                             </p>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="row justify-content-center">
+                 <div class="col-md-11">
+                    <div class="ms-4">
+                       <p style="margin-bottom: -5vh;">Socials:</p>
+                       <!-- <h6 class="js-fade f1-social fs-4">
+                          <a href="#" class="link-1 link-hover-1" data-cursor="-opaque">FB</a>
+                       </h6>
+                       <h6 class="js-fade f1-social fs-4">
+                          <a href="#" class="link-1 link-hover-1" data-cursor="-opaque">IG</a>
+                       </h6> -->
+                       <h6 class="js-fade f1-social fs-4">
+                          <a href="https://ca.linkedin.com/in/camilo-sierra-lozano-b75942226" class="link-1 link-hover-1" data-cursor="-opaque">LinkedIn</a>
+                       </h6>
+                    </div>
+                 </div>
+                 <div class="col-md-11">
+                    <div class="align-jb ms-4 me-4">
+                       <h6 class="f1-text-end">
+                          &copy; 2024 All rights reserved / 
+                          <a href="https://camilo-sierra.com" class="link-1 link-hover-1" data-cursor="-exclusion -sm">camilo-sierra.com</a>
+                       </h6>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
+  </div>
+</main>
+<!-- End Main Page -->
+
+<!-- Start Javascript Libraries -->
+<script src="{{ url_for( 'static', filename='js/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ url_for( 'static', filename='js/plugin.min.js') }}"></script>
+<script src="{{ url_for( 'static', filename='js/three.min.js') }}"></script>
+<script src="{{ url_for( 'static', filename='js/vendors.min.js') }}"></script>
+<script src="{{ url_for( 'static', filename='js/slider-2.js') }}"></script>
+<script src="{{ url_for( 'static', filename='js/script.js') }}"></script>
+<script>
+  var video = document.getElementById("video_backgroundd");
+  video.addEventListener("canplay", function() {
+     setTimeout(function() {
+        video.play();
+     }, 9000);
+  });
+</script>
+<!-- End Javascript Libraries -->
+
+</body>
+</html>

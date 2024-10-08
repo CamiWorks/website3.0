@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+      <!-- Start Overlay Top-Bottom -->
+      <div class="ol-dark-top"></div>
+      <div class="ol-dark-bottom"></div>
+      <!-- End Overlay Top-Bottom -->
+      <!-- Start Main Page -->
+      <main id="smooth-wrapper">
+         <div id="smooth-content">
+            <section class="slideshow-1 intro-eff">
+               <div class="slides slides-border">
+                  <div class="slide-wrap slide-current">
+                     <div class="slide-img bg-ol-dark-7" style="background-image: url('../static/img/tick-auto.jpg');"></div>
+                     <center><h4 class="slide-title">Ticketing Project</h4></center>
+                  </div>
+               </div>
+            </section>            
+            <section class="container-fluid">
+               <div class="row justify-content-center">
+                  <div class="col-md-9 text-center align-cc mt-11 mb-11">
+                     <div>
+                        <h1 class="js-split-chars-left fs-11" data-speed="1.19" data-lag="0.2">
+                           What is it ? 
+                        </h1>
+                        <h3 class="js-split-chars-left fc-brown-1 h6" data-speed="1.1" data-lag="0.2">
+                           My first venture into automation <br>
+                           Not the best but...
+                        </h3>
+                        <h3 class="js-split-chars-left h2" data-speed="1.07" data-lag="0.2" data-magnetic data-cursor="-opaque" data-cursor="-exclusion -sm">
+                           <a href="https://github.com/CamiWorks/ticketing_system" target="_blank" rel="noopener noreferrer">Check it out !</a>
+                        </h3>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <div class="js-drag-slider-wrap">
+               <div class="js-drag-slider-inner">
+                  <div class="js-drag-slider-wrap-img">
+                  </div>
+               </div>
+            </div>
+            
+
+            <center>
+               <div class="col-10 col-md-8">
+                  <h4 class="js-split-chars-left fs-8 text-start smooth-xy" data-speedx="0.3" data-speedy="0.1">
+                     <a href="/realGenie" aria-label="work 3" class="link-1 link-hover-1" data-cursor="-opaque">Next Work</a><i class="ms-5">&#8212;</i>
+                  </h4>
+                  <h4 class="js-split-chars-left fs-8 text-end smooth-xy" data-speedx="-0.3" data-speedy="-0.1">
+                     <i class="me-5">&#8212;</i><a href="/mda" aria-label="work 1" class="link-1 link-hover-1" data-cursor="-opaque">Prev Work</a>
+                  </h4>
+               </div>
+            </center>
+            <div class="parallax-prev"></div>            
+            {% endblock content %}
