@@ -1,3 +1,4 @@
+version: '3.9'
 services:
   app:
     build: 
@@ -6,6 +7,7 @@ services:
       - "5055"
     networks:
       - docker_containers_default
+
   nginx:
     image: nginx:latest
     volumes:
@@ -14,6 +16,8 @@ services:
       - app
     ports:
       - "86:86"
+    networks:
+      - docker_containers_default
 
 networks:
   docker_containers_default:
